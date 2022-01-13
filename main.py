@@ -216,7 +216,7 @@ with requests.Session() as s:
 
 
 webhook = DiscordWebhook(url=discord_webhook_url)
-embed = DiscordEmbed(title="Momentum Script Ran Successfully",color=6533573)
+embed = DiscordEmbed(title="CoinGecko Scraper Log",color=6533573)
 
 embed.add_embed_field(name='Coins Found',value=str(len(found_coins)),inline=True)
 embed.add_embed_field(name='Min Price Change',value=f'{min_price_change}%',inline=True)
