@@ -1,0 +1,14 @@
+{
+    "discordWebhook":"",
+    "minPriceChange":10,
+    "maxPriceChange":"na",
+    "minMarketCap":"na",
+    "maxMarketCap":100000000,
+    "coinsPerCategory":15,
+    "exchanges":[
+        "crypto_com",
+        "binance",
+        "kucoin"
+    ],
+    "tradeCurrency":"USDT"
+}
