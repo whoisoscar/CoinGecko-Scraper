@@ -24,9 +24,12 @@ These configurations include:
 
 * Discord Webhook integration for sending results `discordWebhook`
 * Minimum and maximum price change (24h) `minPriceChange` , `maxPriceChange`
+    * *Values set as "na" default to 0 and ∞ respectively*
 * Minimum and maximum market cap `minMarketCap` , `maxMarketCap`
+    * *Values set as "na" default to 0 and ∞ respectively*
 * Limit amount of coins per category `coinsPerCategory`
 * Supported exchanges (list) `exchanges`
+    * *Find correct exchange syntax in exchanges.txt*
 * Trade currency `tradeCurrency`
 
 Given the parameters set in the settings file, the script will go through all categories on CoinGecko, then go through the first `coinsPerCategory` coins in the category. For each of the coins, it will apply the parameters in the settings file.
@@ -45,4 +48,5 @@ Additionally, the script will send a webhook with a summary of what was ran and 
 
 **To-do**
 --
-- [ ] Integrate official CoinGecko API for basic info
+- [ ] Replace parts of code with official CoinGecko API for easier readability and stability
+- [ ] Add hyperlinks to found exchanges for easier accessability
