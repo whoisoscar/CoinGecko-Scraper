@@ -1,7 +1,7 @@
 **Background**
 --
 With over 12 thousand coins listed on CoinGecko in an evergrowing multi-trillion dollar industry, it can be quite hard to track them all. This tool aims to help filter all these coins to find possible gems to add to your portfolio.
-
+![Image](https://i.imgur.com/FnFbakm.png)
 **Installation**
 --
 To install files:
