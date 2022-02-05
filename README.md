@@ -2,6 +2,8 @@
 --
 With over 12 thousand coins listed on CoinGecko in an evergrowing multi-trillion dollar industry, it can be quite hard to track them all. This tool aims to help filter all these coins to find possible gems to add to your portfolio.
 
+This is a custom CoinGecko frontend API that easily scrapes and filters coins based on given parameters, sending results to a Discord webhook.
+
 ![Image](https://i.imgur.com/Cbxpozv.png)
 
 **Installation**
